@@ -11,27 +11,27 @@ const Login = () => {
   };
 
   return (
-    <div className="login-container">
+    <div className='login-wide'>
+      <div className="login-container">
       <h1 className="login-title">Login</h1>
       <form onSubmit={handleSubmit} className="login-form">
-        <label htmlFor="username" className="login-label">Username:</label>
+        
         <input
           type="text"
-          id="username"
+          id="username"placeholder='Username'
           value={username}
           onChange={(event) => setUsername(event.target.value)}
           className="login-input"
-        />
-        <br />
-        <label htmlFor="password" className="login-label">Password:</label>
+        />        
         <input
           type="password"
           id="password"
+          placeholder='Password'
           value={password}
           onChange={(event) => setPassword(event.target.value)}
           className="login-input"
         />
-        <br />
+        
         <button type="submit" className="login-button">Sign in</button>
       </form>
       <p className="login-forgot-password">
@@ -40,6 +40,7 @@ const Login = () => {
       <p className="login-register">
         New to RouteMate? <a href="/register">Register</a>
       </p>
+    </div>
     </div>
   );
 };
