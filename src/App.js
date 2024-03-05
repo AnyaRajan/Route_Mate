@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useRef } from "react";
+// import { AuthContextProvider } from "./context/AuthContext";
+import { Route, Routes } from "react-router-dom";
+import Loginpage from "./Components/Loginpage/Loginpage";
 
 function App() {
+  const navbarRef = useRef();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+        <div className="App">
+          
+          <Routes>
+            
+            
+          <Route
+          exact
+          path="/Loginpage"
+          element={
+            <>
+              <Loginpage />
+            </>
+          }
+        />
+            
+            
+          </Routes>
+         
+        </div>
+      
+    </>
   );
 }
 
