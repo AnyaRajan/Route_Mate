@@ -12,7 +12,7 @@ const Login = () => {
 
   return (
     <div className='login-wide'>
-      <div className="login-container">
+    <div className="login-container p-5">
       <h1 className="login-title">Login</h1>
       <form onSubmit={handleSubmit} className="login-form">
         
@@ -35,10 +35,10 @@ const Login = () => {
         <button type="submit" className="login-button">Sign in</button>
       </form>
       <p className="login-forgot-password">
-        Forgot password? <a href="/forgot-password">Click here</a>
+        Forgot password? <a href="/forgot-password" className='text-black font-bold'>Click here</a>
       </p>
       <p className="login-register">
-        New to RouteMate? <a href="/register">Register</a>
+        New to RouteMate? <a href="/register" className='text-black font-bold'>Register</a>
       </p>
     </div>
     </div>

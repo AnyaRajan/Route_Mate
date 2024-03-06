@@ -1,11 +1,9 @@
 import "./App.css";
-import { useRef } from "react";
-// import { AuthContextProvider } from "./context/AuthContext";
 import { Route, Routes } from "react-router-dom";
 import Loginpage from "./Components/Loginpage/Loginpage";
+import Register from "./Components/Register/Register";
 
 function App() {
-  const navbarRef = useRef();
   return (
     <>
       
@@ -13,18 +11,25 @@ function App() {
           
           <Routes>
             
-            
-          <Route
-          exact
-          path="/Loginpage"
-          element={
-            <>
-              <Loginpage />
-            </>
-          }
-        />
-            
-            
+            <Route
+            exact
+            path="/Loginpage"
+            element={
+              <>
+                <Loginpage />
+              </>
+            }
+            />
+
+            <Route
+            exact
+            path="/register"
+            element={
+              <>
+                <Register />
+              </>
+            }
+            />
           </Routes>
          
         </div>
