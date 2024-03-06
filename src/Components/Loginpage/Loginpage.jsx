@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from "react-router-dom";
 import './Loginpage.css';
 
 const Login = () => {
@@ -7,7 +8,7 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle login logic here
+    
   };
 
   return (
@@ -35,11 +36,11 @@ const Login = () => {
         <button type="submit" className="login-button">Sign in</button>
       </form>
       <p className="login-forgot-password">
-        Forgot password? <a href="/forgot-password" className='text-black font-bold'>Click here</a>
+        Forgot password? <Link to="/forgot" className='text-black font-bold'>Click here</Link>
       </p>
       <p className="login-register">
-        New to RouteMate? <a href="/register" className='text-black font-bold'>Register</a>
-      </p>
+  New to RouteMate? <Link to="/register" className='text-black font-bold'>Register</Link>
+</p>
     </div>
     </div>
   );

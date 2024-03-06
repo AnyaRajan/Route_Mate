@@ -68,6 +68,9 @@ background-color: green;
     cursor: pointer;
     transition: 300ms ease-out;
 }
+.back-to-login:hover {
+    background-color: green; 
+    }
 
 .buttons{
     width: 20em;
