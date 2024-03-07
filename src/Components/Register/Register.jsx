@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from "react-router-dom";
 import "./Register.css";
 
 function Register() {
@@ -93,7 +94,7 @@ function Register() {
             </form>
             <div className="buttons pt-4">
                 <button type="submit" className="register-button" onClick={handleSubmit}>Sign up</button>
-                <a href="/Loginpage" className='back-to-login'><button type='button' >Login</button></a>
+              <Link to = "/Loginpage"><button type='button' className="back-to-login" >Login</button></Link>  
             </div>
             <p className='font-semibold text-lg text-red-700 pt-4'>{message}</p>
         </div>

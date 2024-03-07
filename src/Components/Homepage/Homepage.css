@@ -1,0 +1,15 @@
+.upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-content: space-around; */
+}
+.imglog{
+    
+    background-image: url('./logo.png'); 
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+  
+}

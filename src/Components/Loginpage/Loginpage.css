@@ -10,7 +10,7 @@
     background-color:#EEEEEB ;
   }
   input::placeholder {
-    color: #000000; /* Set placeholder text color to dark gray */
+    color: #000000; 
    -webkit-text-stroke-width: 0.03rem;
   }
   .login-wide{
