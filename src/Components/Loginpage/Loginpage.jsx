@@ -5,8 +5,7 @@ const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = () => {
     // Handle login logic here
   };
 
@@ -32,7 +31,7 @@ const Login = () => {
           className="login-input"
         />
         
-        <button type="submit" className="login-button">Sign in</button>
+        <button type="submit" className="login-button" onClick={handleSubmit}>Sign in</button>
       </form>
       <p className="login-forgot-password">
         Forgot password? <a href="/forgot-password" className='text-black font-bold'>Click here</a>
