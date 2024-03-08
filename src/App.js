@@ -8,7 +8,7 @@ import Sendotp from "./Components/Sendotp/Sendotp";
 import Travelbuddy from "./Components/Travelbuddy/Travelbuddy";
 const  router=createBrowserRouter([
   { path:"/",element:<Homepage/>
-  },{path:"/Loginpage",element:<Loginpage/>},
+  },{path:"/login",element:<Loginpage/>},
   {path:"/register",element:<Register/>},
   {path:"/forgot",element:<Forgot/>},
   {path:"/sendotp",element:<Sendotp/>},

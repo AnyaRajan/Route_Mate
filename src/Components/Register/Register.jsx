@@ -94,7 +94,7 @@ function Register() {
             </form>
             <div className="buttons pt-4">
                 <button type="submit" className="register-button" onClick={handleSubmit}>Sign up</button>
-              <Link to = "/Loginpage"><button type='button' className="back-to-login" >Login</button></Link>  
+              <Link to = "/login"><button type='button' className="back-to-login" >Login</button></Link>  
             </div>
             <p className='font-semibold text-lg text-red-700 pt-4'>{message}</p>
         </div>

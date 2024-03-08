@@ -51,7 +51,7 @@ function Register() {
                 <div className="buttons pt-4">
                     
                     <button type="submit" className="register-button">Sign up</button>
-                    <Link to = "/Loginpage"><button type='button' className="back-to-login" >Login</button></Link>  
+                    <Link to = "/login"><button type='button' className="back-to-login" >Login</button></Link>  
                 </div>
             </div>
         </div>
