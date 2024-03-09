@@ -8,6 +8,7 @@ import Homepage from "./Components/Homepage/Homepage";
 import Sendotp from "./Components/Sendotp/Sendotp";
 import Tripcard from "./Components/TripCard/TripCard";
 import Tripsdata from './Tripsdata';
+import Plus from './plus';
 
 const router = createBrowserRouter([
   { path: "/", element: <Homepage /> },
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   { path: "/register", element: <Register /> },
   { path: "/forgot", element: <Forgot /> },
   { path: "/sendotp", element: <Sendotp /> },
-  { path: "/tripcard", element: <Tripcard /> }
+  { path: "/tripcard", element: <Plus /> }
 ]);
 
 function App() {
@@ -34,15 +35,8 @@ function App() {
   return (
     <>
       {/* <RouterProvider router={router} /> */}
-      <div className='my-app'>
-        <div className="heading">
-        <h1 className='text-white text-4xl text-center mt-[50px] mb-[80px]'>Find your Travel Buddy</h1>
-
-        </div>
-        <div className="trips">
-          {cards}
-        </div>
-      </div>
+      <RouterProvider router={router} />
+      
     </>
   );
 }
