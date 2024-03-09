@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./Form.css";
+import "./Pankaj.css";
 import { motion } from "framer-motion";
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-export const Form = () => {
+export const Pankaj = () => {
   const [items, setItems] = useState([]);
   const [inputValue, setInputValue] = useState("");
 
@@ -64,7 +64,7 @@ export const Form = () => {
     <>
       <form className="Form-form" onSubmit={handleFormSubmit}>
         <motion.div className="Form-header">
-          <h1>Plan Your Trip</h1>
+          <h1 className='text-4xl text-black font-bold text-center mt-[20px] mb-[10px]'>Plan Your Trip</h1>
           <p>Let us know your preferences</p>
         </motion.div>
 
@@ -169,4 +169,4 @@ export const Form = () => {
     </>
   );
 };
-export default Form
+export default Pankaj

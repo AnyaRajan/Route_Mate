@@ -9,7 +9,7 @@ import Sendotp from "./Components/Sendotp/Sendotp";
 import Tripcard from "./Components/TripCard/TripCard";
 import Tripsdata from './Tripsdata';
 import Plus from './plus';
-import Formed from './Components/Form/Formed'
+import Formed from './Components/Pankaj/Formed'
 
 
 const router = createBrowserRouter([
@@ -19,23 +19,12 @@ const router = createBrowserRouter([
   { path: "/forgot", element: <Forgot /> },
   { path: "/sendotp", element: <Sendotp /> },
   { path: "/tripcard", element: <Plus /> },
-  { path: "/Form", element: <Formed /> },
+  { path: "/Formed", element: <Formed /> },
 
   
 ]);
 
 function App() {
-  const cards = Tripsdata.map((item) => {
-    return (
-      <Tripcard
-       
-        img="../images/tajmahal.jpg"
-        location={item.location}
-        title={item.title}
-        date={item.date}
-      />
-    );
-  });
 
   return (
     <>

@@ -1,14 +1,14 @@
 import React from "react";
-
-import { Form } from "./Form";
+import'./Formed.css';
+import { Pankaj } from "./Pankaj";
 // import { Background } from "./components/Background";
 
 function Formed() {
   return (
     <>
       
-      <div className="App-container">
-        <Form />
+      <div className="formed-container">
+        <Pankaj />
       </div>
     </>
   );
