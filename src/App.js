@@ -9,6 +9,8 @@ import Sendotp from "./Components/Sendotp/Sendotp";
 import Tripcard from "./Components/TripCard/TripCard";
 import Tripsdata from './Tripsdata';
 import Plus from './plus';
+import Formed from './Components/Form/Formed'
+
 
 const router = createBrowserRouter([
   { path: "/", element: <Homepage /> },
@@ -16,7 +18,10 @@ const router = createBrowserRouter([
   { path: "/register", element: <Register /> },
   { path: "/forgot", element: <Forgot /> },
   { path: "/sendotp", element: <Sendotp /> },
-  { path: "/tripcard", element: <Plus /> }
+  { path: "/tripcard", element: <Plus /> },
+  { path: "/Form", element: <Formed /> },
+
+  
 ]);
 
 function App() {

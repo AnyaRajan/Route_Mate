@@ -1,0 +1,162 @@
+.Form-form {
+  min-height: 90vh;
+  max-width: 70vw;
+  padding-inline: 5%;
+  padding-bottom: 2rem;
+  margin:1rem ;
+  border-radius: 5px;
+  border: black 1px solid;
+  color: black;
+  background-repeat: inherit;
+}
+
+.Form-form label,h3 {
+  font-size: 1em;
+  font-weight:500;
+  margin: 0;
+}
+
+/* .Form-form h3 {
+  margin:0;
+} */
+
+@media (max-width: 520px) {
+  .Form-form {
+    max-width: 100vw;
+  }
+}
+
+.Form-header {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1 rem;
+}
+
+@media (min-width: 1180px) {
+  .Form-header {
+    margin-bottom: 5rem;
+  }
+
+  .Form-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.search-places {
+  min-width: 20rem;
+}
+
+.Form-left {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Form-right {
+  /* background-color: blue; */
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+input[type="text"] {
+  width: 20rem;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.Form-date {
+  width: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.1rem;
+}
+
+.start-date {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.end-date {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+input[type="date"] {
+  display: block;
+  width: 10rem;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="number"] {
+  width: 10rem;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 12rem;
+  width: 70%;
+  min-width: 20rem;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+}
+
+.submit-button {
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-inline: auto;
+  min-height: 30px;
+  min-width: 120px;
+}
+
+.addItem-button {
+  background-color: #0a0a23;
+  color: #fff;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.place-del{
+  color: black;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+
+li {
+  background-color: #fff;
+  min-height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding-inline: 1rem;
+}
