@@ -9,8 +9,8 @@ import Sendotp from "./Components/Sendotp/Sendotp";
 import Tripcard from "./Components/TripCard/TripCard";
 import Tripsdata from './Tripsdata';
 import Plus from './plus';
-import Formed from './Components/Pankaj/Formed'
-
+import Formed from './Components/Pankaj/Formed';
+import Index from './Components/Train Details';
 
 const router = createBrowserRouter([
   { path: "/", element: <Homepage /> },
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   { path: "/sendotp", element: <Sendotp /> },
   { path: "/tripcard", element: <Plus /> },
   { path: "/Formed", element: <Formed /> },
-
+  { path: "/details", element: <Index />}
   
 ]);
 

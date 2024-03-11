@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Common styles for all elements */
+.navbar, .nav_departure_station, .nav_arrival_station, .nav_date, .nav_mode {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.nav_departure_station, .nav_arrival_station, .nav_date, .nav_mode {
+    background-color: gray;
+    border-radius: 15px;
+    height: 80px;
+    cursor: pointer;
+    margin: 10px;
+    width: 160px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav_date{
+width: 2000px;
+}
+
+.nav-cities{
+    display:flex;
+    flex-direction: row;
+}
+.nav_date{
+    font-size: large;
+    font-weight: 600;
+    color: aliceblue;
+}
+.nav_departure_station>h2, .nav_arrival_station>h2, .nav_date>h2 {
+    font-size: medium;
+}
+
+.nav_departure_station>h4, .nav_arrival_station>h4, .nav_date>h4, .nav_mode>h4 {
+    font-size: x-small;
+    font-weight: 400;
+}
+
+.nav_date {
+    margin-left: 0;
+}
+.nav-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .nav_mode {
+    margin-left: 10px;
+} */
+
+.icon {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* cursor: pointer; */
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+    .nav_departure_station, .nav_arrival_station, .nav_date, .nav_mode {
+        width: 100%;
+        margin: 10px 0;
+        background-color: gray;
+        display: flex;
+    }
+    .nav-time{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ... (previous styles) */
+
+/* Custom styles for the Select components */
+.select-container {
+    width: 100%;
+
+     /* Set the width of the select container */
+}
+
+.select-control {
+    width: 100%; /* Set the width of the select control */
+}
+
+/* Common styles for all elements */
+.navbar, .nav_departure_station, .nav_arrival_station, .nav_date, .nav_mode {
+    box-sizing: border-box;
+}
+
+/* ... (previous styles) */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav_departure_station, .nav_arrival_station, .nav_date, .nav_mode {
+        width: 100%;
+        margin: 10px 0;
+        background-color: gray;
+    }
+
+    /* .nav_mode {
+        padding: 0px 10px;
+    } */
+
+    .icon {
+        margin: 10px 0;
+    }
+
+    /* Adjust styles for smaller screens */
+    .select-container, .select-control {
+        width: 100%; /* Set the width of the select container and control for smaller screens */
+    }
+}
