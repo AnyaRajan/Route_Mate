@@ -76,6 +76,7 @@ export const Pankaj = () => {
               name="destination"
               onChange={handleFormData}
               value={formData.destination}
+              className="inpt"
             />
 
             <div className="Form-date">
@@ -86,6 +87,7 @@ export const Pankaj = () => {
                   name="startDate"
                   onChange={handleFormData}
                   value={formData.startDate}
+                  className="inpd"
                 />
               </div>
               <div className="end-date">
@@ -95,6 +97,7 @@ export const Pankaj = () => {
                   name="endDate"
                   onChange={handleFormData}
                   value={formData.endDate}
+                  className="inpd"
                 />
               </div>
             </div>
@@ -105,6 +108,7 @@ export const Pankaj = () => {
               name="budget"
               onChange={handleFormData}
               value={formData.budget}
+              className="inpn"
             />
 
             <label htmlFor="description">Description:</label>
@@ -115,6 +119,7 @@ export const Pankaj = () => {
               resize="none"
               onChange={handleFormData}
               value={formData.description}
+              className="texta"
             />
           </div>
           <div className="Form-right">
@@ -125,6 +130,7 @@ export const Pankaj = () => {
                 value={inputValue}
                 onChange={handleInputChange}
                 placeholder="Enter item"
+                className="inpt"
               />
               <motion.button
                 whileHover={{ scale: 1.1 }}

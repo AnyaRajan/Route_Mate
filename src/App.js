@@ -6,11 +6,10 @@ import Register from "./Components/Register/Register";
 import Forgot from "./Components/Forgot/Forgot";
 import Homepage from "./Components/Homepage/Homepage";
 import Sendotp from "./Components/Sendotp/Sendotp";
-import Tripcard from "./Components/TripCard/TripCard";
-import Tripsdata from './Tripsdata';
 import Plus from './plus';
 import Formed from './Components/Pankaj/Formed';
 import Index from './Components/Train Details';
+import Blogpage from './Components/Blogpage/Blogpage';
 
 const router = createBrowserRouter([
   { path: "/", element: <Homepage /> },
@@ -20,8 +19,8 @@ const router = createBrowserRouter([
   { path: "/sendotp", element: <Sendotp /> },
   { path: "/tripcard", element: <Plus /> },
   { path: "/Formed", element: <Formed /> },
-  { path: "/details", element: <Index />}
-  
+  { path: "/details", element: <Index />},
+  { path: "/blogs", element: <Blogpage />}
 ]);
 
 function App() {

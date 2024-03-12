@@ -10,16 +10,11 @@
   background-repeat: inherit;
 }
 
-.Form-form label,h3 {
+.Form-form > label,h3 {
   font-size: 1em;
   font-weight:500;
   margin: 0;
 }
-
-
-/* .Form-form h3 {
-  margin:0;
-} */
 
 @media (max-width: 520px) {
   .Form-form {
@@ -62,7 +57,7 @@
   grid-column-end: 3;
 }
 
-input[type="text"] {
+.inpt {
   width: 20rem;
   margin-top: 3px;
   margin-bottom: 20px;
@@ -88,7 +83,7 @@ input[type="text"] {
   grid-column-end: 3;
 }
 
-input[type="date"] {
+.inpd {
   display: block;
   width: 10rem;
   margin-top: 3px;
@@ -98,7 +93,7 @@ input[type="date"] {
   border: none;
 }
 
-input[type="number"] {
+.inpn {
   width: 10rem;
   margin-top: 3px;
   margin-bottom: 20px;
@@ -107,7 +102,7 @@ input[type="number"] {
   border: none;
 }
 
-textarea {
+.texta {
   height: 12rem;
   width: 70%;
   min-width: 20rem;
@@ -144,14 +139,14 @@ textarea {
   border: none;
 }
 
-ul {
+.search-places > ul {
   list-style: none;
   padding: 0;
   margin: auto;
   text-align: center;
 }
 
-li {
+.search-places > ul > li {
   background-color: #fff;
   min-height: 2rem;
   display: flex;
