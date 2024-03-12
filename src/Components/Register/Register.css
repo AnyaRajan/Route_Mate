@@ -71,7 +71,7 @@ transform: scale(1.1);
 .back-to-login:hover {
     background-color: green;
     transform: scale(1.1);
-    }
+}
 
 .buttons{
     width: 20em;
