@@ -10,8 +10,8 @@ const options=[
     {label: "Chennai", value: "chennai"},
     {label: "Kolkata", value: "kolkata"},
 ];
-const today = new Date();
-const formattedToday = `${today.getDate().toString().padStart(2, '0')}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getFullYear()}`;
+// const today = new Date();
+// const formattedToday = `${today.getDate().toString().padStart(2, '0')}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getFullYear()}`;
 const modes=[
     {label: "Train", value: "train"},
     {label: "Flight", value: "flight"},
@@ -88,11 +88,11 @@ export default function Navbar(){
                 />
                 </div>
             </div> 
-            <div className="nav-time">
-            <div className="pt-4">
+            <div className="nav-time -mt-1">
+            <div className="pt-1">
                 <input className="nav_date" type="date" onChange={e=>setDate(e.target.value)} style={dateInputStyles}/>
             </div>
-            <div className="pt-2">
+            <div className="pt-1">
                 <Select options={modes}
                     value={selectedMode}
                     onChange={handleChange2}

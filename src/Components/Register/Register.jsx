@@ -10,7 +10,7 @@ function Register() {
     const [message, setMessage] = useState('');
 
     const handleSubmit = () => {
-        var valid = 0;
+        // var valid = 0;
         //Handle username logic
         var valid1 = 0;
         
@@ -50,7 +50,8 @@ function Register() {
             if(!valid3) setMessage("Passwords do not match");
         }
 
-        if(valid1 && valid2 && valid3) valid = 1;
+        if(valid1 && valid2 && valid3){}
+            // valid = 1;
     };
     
     return (

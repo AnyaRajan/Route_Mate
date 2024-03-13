@@ -39,14 +39,14 @@
     margin-left: 80px;
 }
 
-.departure h4,
-.arrival h4 {
+.departure > h4,
+.arrival > h4 {
     font-size: medium;
     margin-bottom: 5px;
 }
 
-.departure h5,
-.arrival h5 {
+.departure > h5,
+.arrival > h5 {
     font-size: small;
     font-weight: 400;
 }
@@ -55,7 +55,7 @@
     margin-right: 2px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 
 .options {
@@ -94,12 +94,6 @@
     width: 50px;
     margin-right: 10px;
     /* margin-right: 20px; */
-}
-#nonum{ 
-    width: 193px;
-    justify-content: center;
-    align-items: center;
-    color:white;
 }
 
 .number {

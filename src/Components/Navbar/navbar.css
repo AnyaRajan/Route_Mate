@@ -8,6 +8,7 @@
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: white;
     background-color: black;
     width: auto;
@@ -30,7 +31,7 @@
 }
 
 .nav_date{
-width: 2000px;
+width: 200px;
 }
 
 .nav-cities{

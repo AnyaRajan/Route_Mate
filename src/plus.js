@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import {Link} from "react-router-dom";
-// import "./Register.css";
+import React from 'react';
 import Tripcard from "./Components/TripCard/TripCard";
 import Tripsdata from './Tripsdata';
 

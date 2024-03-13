@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../../Assets/logo1.png'
 import taj from '../../Assets/taj.png'
 import agfo from '../../Assets/agfo.png'
 import ftpsk from '../../Assets/ftpsk.png'

@@ -34,10 +34,9 @@ export default function Traindetails() {
                         <button className="chat-button" >Chat</button>
                         <button className="Add-me" onClick={toggleButtonText}>{buttonText}</button> 
                     </div>
-                    <div className="count">
+                    <div className="count pr-48 pt-1">
                         <h4 id = "cnum" className="confirm number" >83</h4>
                         <h4 id = "wnum" className="wait number">57</h4>
-                        <h4 id="nonum"></h4>
                     </div>
                     
                 </div>

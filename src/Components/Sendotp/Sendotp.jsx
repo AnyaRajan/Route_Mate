@@ -4,8 +4,8 @@ import "./Sendotp.css";
 
 function Register() {
     const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [otp, setOtp] = useState('');
+    // const [password, setPassword] = useState('');
+    // const [otp, setOtp] = useState('');
 
     const handleSubmit = (event) => {
         event.preventDefault();

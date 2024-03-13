@@ -33,7 +33,7 @@ export default function Tripcard(props) {
         <div className="profile">
           <img src={tajmahal} alt="" />
         </div>
-        <div className="details">
+        <div className="details1">
           <div className="location">
             <FaLocationDot className="location-icon" />
             <p>{props.location}</p>
@@ -47,11 +47,11 @@ export default function Tripcard(props) {
           </div>
         </div>
         <motion.button
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
-          className="btn"
+          className="btn1 p-2 pl-3 text-cyan-600 text-semibold"
         //   onClick={() => props.onDelete(props.id)}
-        >view more</motion.button>
+        >View More</motion.button>
       </div>
     </motion.div>
   );

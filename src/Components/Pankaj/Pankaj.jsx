@@ -107,7 +107,7 @@ export const Pankaj = () => {
               type="number"
               name="budget"
               onChange={handleFormData}
-              value={formData.budget}
+              value={formData.budget < 0 ? 0: formData.budget}
               className="inpn"
             />
 
