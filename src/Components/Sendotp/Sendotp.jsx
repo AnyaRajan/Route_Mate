@@ -15,12 +15,12 @@ function Register() {
         <div className="fucked">
             <div className="register-container p-5 flex justify-around">
                 <h1 className="fucked-title">Reset Your Password</h1>
-                <h5>Enter your registered Username to reset your password</h5>
+                <h5>Enter your roll number to reset your password</h5>
                 <form onSubmit={handleSubmit} className="fucked-register-form">
                     <input
                         type="text"
                         id="username"
-                        placeholder='Username'
+                        placeholder='Roll No.'
                         value={username}
                         onChange={(event) => setUsername(event.target.value)}
                         className="register-input"
