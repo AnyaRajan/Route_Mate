@@ -4,10 +4,12 @@
   padding-inline: 5%;
   padding-bottom: 2rem;
   margin:1rem ;
-  border-radius: 5px;
+  border-radius: 30px;
   border: black 1px solid;
   color: black;
   background-repeat: inherit;
+  background-color: black;
+  box-shadow: 10px 5px 5px rgb(69, 65, 65);
 }
 
 .Form-form > label,h3 {

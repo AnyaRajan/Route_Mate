@@ -1,8 +1,13 @@
 import React,{useEffect,useState} from 'react'
 import { ReactDOM } from 'react'
 import logo from '../../Assets/logo1.png'
+
 import rt1 from '../../Assets/rt2.png'
 import lt1 from '../../Assets/lt2.png'
+
+import right from '../../Assets/right.png'
+import left from '../../Assets/left.png'
+
 import girl from '../../Assets/girl.png'
 import boy from '../../Assets/boy.png'
 import trvl from '../../Assets/trvl.jpg'
@@ -30,16 +35,18 @@ function Homepage() {
       <div className=" w-[40em]" >
     <img src={logo} className="logo w-1/5 pl-10" alt="Logo"/>
   </div>
+
         <h1 className=' text-6xl text-white text-center font-serif pt-10'>Routemate</h1>
+
       </div>
       <div className=" ">
       <div class=" spin flex h-screen pt-10  w-full  justify-center items-baseline">
       <div >
-    <img src={lt1} alt="leftarrow"/>
+    <img src={right} alt="leftarrow"/>
   </div>  
   
       <div className="" >
-    <img src={rt1} alt="rightarrow"/>
+    <img src={left} alt="rightarrow"/>
   </div>
   </div>
   <div class=" flex absolute  mt-40 top-40 left-10 right-10 h-screen  w-full  justify-center items-baseline" id="place">
@@ -55,10 +62,12 @@ function Homepage() {
   </div>
   <div className="flex pt-20 pl-10 pr-20 pb-10 w-full flex-row justify-around">
         <img src = {trvl} className="w-[25em] pr-10" alt="travel"/>
+
         <div className="flex flex-col text-white text-justify text-base">
           <p className="text-bold text-5xl pb-20 mr-[2em]">About Us</p>
           <p className='text-xl mr-[2em]'>Welcome to Route Mate, your trusted travel companion for shared journeys to your Homepagetown and beyond. Connect with fellow students from IIT Kanpur and embark on safe, enjoyable trips together. Our platform features a chat function, allowing you to communicate with potential travel companions and plan your trip seamlessly. </p>
           <p className='pt-4 text-xl mr-[2em]'>Additionally, explore our blog section for travel tips, destination guides, and inspiring stories. Want to share your own experiences? Create your own blogs and inspire others with your adventures. Join our community today and travel with confidence.</p>
+
         </div>
       </div>      
   </div>

@@ -1,0 +1,14 @@
+.btn{
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+.tpp{
+  background-color: #fff;
+  
+}
+.tpp > button{
+  width: 20px;
+}
+.tpp > button:hover {
+  color: rgb(29 78 216);
+}

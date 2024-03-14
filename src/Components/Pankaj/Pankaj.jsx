@@ -62,15 +62,15 @@ export const Pankaj = () => {
 
   return (
     <>
-      <form className="Form-form" onSubmit={handleFormSubmit}>
+      <form className="Form-form " onSubmit={handleFormSubmit}>
         <motion.div className="Form-header">
-          <h1 className='text-4xl text-black font-bold text-center mt-[20px] mb-[10px]'>Plan Your Trip</h1>
-          <p>Let us know your preferences</p>
+          <h1 className='text-4xl text-white font-bold text-center mt-[20px] mb-[10px]'>Plan Your Trip</h1>
+          <p className="text-white"> Let us know your preferences</p>
         </motion.div>
 
         <div className="Form-body">
           <div className="Form-left">
-            <label htmlFor="destination">Where to?</label>
+            <label className='text-white'htmlFor="destination ">Where to?</label>
             <input
               type="text"
               name="destination"
@@ -81,7 +81,7 @@ export const Pankaj = () => {
 
             <div className="Form-date">
               <div className="start-date">
-                <label htmlFor="date">start-date:</label>
+                <label className='text-white' htmlFor="date ">start-date:</label>
                 <input
                   type="date"
                   name="startDate"
@@ -91,7 +91,7 @@ export const Pankaj = () => {
                 />
               </div>
               <div className="end-date">
-                <label htmlFor="date">end-date:</label>
+                <label className='text-white' htmlFor="date">end-date:</label>
                 <input
                   type="date"
                   name="endDate"
@@ -102,7 +102,7 @@ export const Pankaj = () => {
               </div>
             </div>
 
-            <label htmlFor="budget">Approximate Budget</label>
+            <label className='text-white' htmlFor="budget">Approximate Budget</label>
             <input
               type="number"
               name="budget"
@@ -111,7 +111,7 @@ export const Pankaj = () => {
               className="inpn"
             />
 
-            <label htmlFor="description">Description:</label>
+            <label className='text-white' htmlFor="description">Description:</label>
             <textarea
               name="description"
               rows="7"
@@ -124,7 +124,7 @@ export const Pankaj = () => {
           </div>
           <div className="Form-right">
             <div className="search-places">
-              <h3>Add Places</h3>
+              <h3 className='text-white'>Add Places</h3>
               <input
                 type="text"
                 value={inputValue}
