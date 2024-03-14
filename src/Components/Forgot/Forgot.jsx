@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {Link} from "react-router-dom";
 import "./Forgot.css";
+import Navbar from './Navbar'
 
 function Register() {
     const [username, setUsername] = useState('');
@@ -12,6 +13,7 @@ function Register() {
     };
 
     return (
+                    
         <div className="register-body">
             <div className="register-container p-5 px-14 flex justify-around">
                 <h1 className="register-title">Reset Your Password</h1>

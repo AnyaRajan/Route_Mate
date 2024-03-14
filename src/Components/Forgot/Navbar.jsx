@@ -11,10 +11,10 @@ function Navbar() {
       <span class="self-center text-4xl text-white font-semibold whitespace-nowrap dark:text-white">Routemate</span>
   </a>
   <div class="flex flex-col md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-  <form   className='tpp flex flex-row p-2 rounded-md'>
+  {/* <form   className='tpp flex flex-row p-2 rounded-md'>
       <input type="text" placeholder="Search.." name="blog"/>
       <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
+    </form> */}
       <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-6 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
