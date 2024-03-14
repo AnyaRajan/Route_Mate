@@ -10,6 +10,7 @@ import Plus from './plus';
 import Formed from './Components/Pankaj/Formed';
 import Index from './Components/Train Details';
 import Blogpage from './Components/Blogpage/Blogpage';
+import TrainQuery from './Components/Trainquery/TrainQuery'
  
 const router = createBrowserRouter([
   { path: "/", element: <Homepage /> },
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
   { path: "/tripcard", element: <Plus /> },
   { path: "/Formed", element: <Formed /> },
   { path: "/details", element: <Index />},
-  { path: "/blogs", element: <Blogpage />}
+  { path: "/blogs", element: <Blogpage />},
+  { path: "/trainquery", element: <TrainQuery />}
 ]);
 
 function App() {
