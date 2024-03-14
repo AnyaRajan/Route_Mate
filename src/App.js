@@ -10,9 +10,11 @@ import Plus from './plus';
 import Formed from './Components/Pankaj/Formed';
 import Index from './Components/Train Details';
 import Blogpage from './Components/Blogpage/Blogpage';
+
 import TrainQuery from './Components/Trainquery/TrainQuery'
- 
+
 const router = createBrowserRouter([
+  
   { path: "/", element: <Homepage /> },
   { path: "/login", element: <Loginpage /> },
   { path: "/register", element: <Register /> },
@@ -29,8 +31,8 @@ function App() {
 
   return (
     <>
-      {/* <RouterProvider router={router} /> */}
       <RouterProvider router={router} />
+      {/* <RouterProvider router={router} /> */}
       
     </>
   );
